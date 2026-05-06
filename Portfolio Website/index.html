@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jom's Portfolio</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="bootstrap.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <nav class="nav-pills ui-navbar sticky-top p-3 mt-3">
+        <ul class="nav navbar-nav-scroll justify-content-center" id="mynavbar">
+            <li class="nav-item"><a href="#home" class="nav-link">
+                <i class="bi bi-house-door-fill"></i>
+                    <span>Home</span>
+            </a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">
+                <i class="bi bi-code-slash"></i>
+                    <span>Skills</span>
+            </a></li>
+            <li class="nav-item"><a href="#portfolio" class="nav-link">
+                <i class="bi bi-briefcase-fill"></i>
+                    <span>Portfolio</span>
+            </a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">
+                <i class="bi bi-envelope-fill"></i>
+                    <span>Contact</span>
+            </a></li>
+        </ul>
+    </nav>
+
+    <div data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="0" tabindex="0">
+
+        <!-- Home Section -->
+        <div id="home" class="home-bg">
+            <div class="container home-page pb-5 pt-2 mb-5 mt-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4 class="mt-5">Hi, <span>I'm Jom!</span></h4>
+                        <h1 class="mt-4">Web Designer</h1>
+                        <p class="mt-4">I am a Filipino Deaf student. He currently studies in Business Outsourcing Services Management at Benilde College. Learning about HTML and CSS programming for Website Design.</p>
+
+                        <button class="mt-4">Resume</button>
+                        <button class="mt-4"><a href="#portfolio">Portfolio</a></button>
+                        
+                        <div class="d-flex flex-wrap mt-4 gap-3">
+                            <a href="https://www.facebook.com/jerome.zabanal.7" target="_blank"><i class="bi bi-facebook"></i></a>
+                            <a href="https://github.com/m0j90" target="_blank"><i class="bi bi-github"></i></a>
+                            <a href="#" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 g-5">
+                        <img src="images/profile-image/jom-profile.png" alt="Profile Image" class="img-fluid mx-auto d-block">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Skills Section -->
+        <div id="skills" class="skills-bg skills-page">
+            <div class="container pt-2 pb-5">
+                <h2 class="text-center mt-5 mb-5">Jom's Skills</h2>
+
+                <div class="row">
+                    <div class="col-md-6 p-3">
+                        <div class="tools-development-icons pb-6">
+                            <h4 class="pt-2">Development Tools</h4>
+                            <hr>
+                            <div class="d-flex flex-wrap gap-3">
+                                <div class="icons-circular">
+                                    <img src="images/icons/vscode.svg">
+                                </div>
+
+                                <div class="icons-circular">
+                                    <i class="fa-brands fa-github"></i>
+                                </div>
+
+                                <div class="icons-circular">
+                                    <i class="fa-brands fa-bootstrap"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 p-3">
+                        <div class="web-languages-icons">
+                            <h4 class="pt-2">Front-End Langauges</h4>
+                            <hr>
+                            <div class="d-flex flex-wrap gap-4">
+                                <div class="d-flex flex-column align-items-center gap-2">
+                                    <div class="progress-circle" style="--value: 90;">
+                                        <div class="progess-inner"><i class="fa-brands fa-html5"></i></div>
+                                    </div>
+                                    <span class="percentage-text">90%</span>
+                                </div>
+
+                                <div class="d-flex flex-column align-items-center gap-2">
+                                    <div class="progress-circle" style="--value: 80;">
+                                        <div class="progess-inner"><i class="fa-brands fa-css"></i></div>
+                                    </div>
+                                    <span class="percentage-text">80%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Section -->
+        <div id="portfolio" class="portfolio-bg">
+            <div class="container pt-2 pb-5 portfolio-page">
+                <h2 class="text-center mt-5 mb-5">Portfolio</h2>
+
+                <div class="row">
+                    <div class="col-md-4 p-3">
+                        <div class="card mb-4">
+                            <iframe src="https://m0j90.github.io/brewandshot/" style="height: 50vh;" class="card-img-top mb-2" alt="Brew and Shot E-Commerce Website"></iframe>
+                            <div class="card-body">
+                                <h5 class="card-title mb-4">Brew and Shot E-Commerce Website</h5>
+                                <p class="card-text mb-3">My first e-commerce website for a school project in the specialized track course requirement.</p>
+                                <div class="mb-5">
+                                   <img src="images/icons/html-icon.svg"> 
+                                   <img src="images/icons/css-icon.svg">
+                                   <img src="images/icons/bootstrap-5-logo-icon.svg">
+                                </div>
+                                <a href="https://m0j90.github.io/brewandshot/" target="_blank" class="pf-btn">View</a>
+                                <a href="https://github.com/m0j90/brewandshot" target="_blank">Github Repo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Section -->
+        <div id="contact">
+            <footer class="footer-bg py-5">
+                            
+                <div class="container">
+                    <div class="row g-4">
+                        <div class="col-lg-5">
+                            <h5 class="mb-4">About Jom</h5>
+                            <p class="mb-4 jom-info">
+                            He is a Filipino Deaf student and currently studies in Business Outsourcing Services Management at Benilde College. Learning about HTML and CSS programming for Website Design.
+                            </p>                
+                        </div>
+
+                        <div class="col-lg-3">
+                            <h5 class="mb-4">His Services</h5>
+                            <ul class="list-unstyled">
+                                <li class="mb-2">Website Redesign</li>
+                                <li class="mb-2">Responsive Website Design</li>
+                                <li class="mb-2">Frontend Development</li>
+                                <li class="mb-2">E-commerce Website Design</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <h5 class="mb-4">Contact Info</h5>
+                            <ul class="list-unstyled">
+                                <li class="mb-3">            
+                                    <a href="mailto:jzabanal21@gmail.com" class="footer-link">
+                                    <i class="fas fa-envelope me-2"></i>
+                                    jzabanal21@gmail.com
+                                    </a>
+                                </li>
+                                <li class="mb-3">            
+                                    <a href="https://www.messenger.com/e2ee/t/1167044868807528" target="_blank" class="footer-link">
+                                    <i class="fa-brands fa-facebook-messenger me-2"></i>
+                                    Jerome Zabanal Messenger
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="row mt-5">
+                        <div class="col-12">
+                            <hr class="mb-4">
+                            <div class="text-center">
+                                <p class="mb-0">&copy; 2026 Jom's Portfolio. All rights reserved | Designed by Jerome Zabanal</p>
+                                <div class="social-links mt-4">
+                                    <a href="https://www.facebook.com/jerome.zabanal.7" class="social-icon" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://github.com/m0j90" class="social-icon" target="_blank"><i class="bi bi-github"></i></a>
+                                    <a href="#" class="social-icon" target="_blank"><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+    </div>
+
+</body>
+</html>
