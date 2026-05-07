@@ -12075,7 +12075,7 @@ textarea.form-control-lg {
   color: #061329;
 }
 
-@media (max-width: 576px) and (max-width: 768px) {
+@media (max-width: 768px) {
   .bi {
     font-size: 1.2rem;
   }
@@ -12097,20 +12097,36 @@ textarea.form-control-lg {
     max-width: 100%;
   }
 
-  .tools-development-icons {
-    margin-right: auto !important;
-    margin-left: auto !important;
-    display: block !important;
-  }
-
+  .tools-development-icons,
   .web-languages-icons {
     margin-right: auto !important;
     margin-left: auto !important;
     display: block !important;
   }
+
+  .portfolio-page .card {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .portfolio-page iframe {
+    width: 100%;
+    min-height: 55vh;
+  }
 }
 
-@media (min-width: 992px) and (min-width: 1200px) and (min-width: 1400px) {
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .portfolio-page .card {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+  .portfolio-page iframe {
+    min-height: 50vh;
+  }
+}
+
+@media (min-width: 1200px) {
   .home-page img {
     max-width: 60%;
   }
