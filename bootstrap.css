@@ -4387,6 +4387,7 @@ textarea.form-control-lg {
   background-clip: border-box;
   border: var(--bs-card-border-width) solid var(--bs-card-border-color);
   border-radius: var(--bs-card-border-radius);
+  animation: floating 3s ease-in-out infinite;
 }
 .card > hr {
   margin-right: 0;
@@ -12097,7 +12098,7 @@ textarea.form-control-lg {
     max-width: 100%;
   }
 
-  .tools-development-icons,
+  .software-tools-icons,
   .web-languages-icons {
     margin-right: auto !important;
     margin-left: auto !important;
@@ -12141,6 +12142,7 @@ textarea.form-control-lg {
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(12px);
     padding: 2rem;
+    animation: floating 3s ease-in-out infinite;
 }
 
 .home-page h1, .home-page h4 {
@@ -12169,6 +12171,15 @@ textarea.form-control-lg {
   }
   50% {
     transform: translateY(-10px) rotate(4deg);
+  }
+}
+
+@keyframes floating {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
   }
 }
 
@@ -12216,7 +12227,7 @@ textarea.form-control-lg {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-.tools-development-icons {
+.software-tools-icons {
   max-width: 100%;
   background-color: rgba(255, 255, 255, 0.15);
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -12224,6 +12235,7 @@ textarea.form-control-lg {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(12px);
   padding: 1rem 1.5rem;
+  animation: floating 3s ease-in-out infinite;
 }
 
 .web-languages-icons {
@@ -12234,6 +12246,7 @@ textarea.form-control-lg {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(12px);
   padding: 1rem 1.5rem;
+  animation: floating 3s ease-in-out infinite;
 }
 
 .progress-circle {
