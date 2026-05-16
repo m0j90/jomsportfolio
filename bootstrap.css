@@ -12048,90 +12048,6 @@ textarea.form-control-lg {
 
 /*# sourceMappingURL=bootstrap.css.map */
 
-.skills-bg {
-    background: linear-gradient(135deg, #5f1347 0%, #4e1c52 60%, #432259 100%);
-}
-
-.portfolio-bg {
-    background: linear-gradient(135deg, #000000 0%, #061329 50%, #0c2652 100%);
-}
-
-.ui-navbar {
-  background-color: rgba(255, 255, 255, 0.15);
-  max-width: 90%;
-  margin: 0 auto;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 2.4rem;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(12px);
-}
-
-.nav-link {
-    margin: 0 1.2rem 0 1.2rem;
-  }
-
-.ui-navbar .nav-link:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-  color: #061329;
-}
-
-@media (max-width: 768px) {
-  .bi {
-    font-size: 1.2rem;
-  }
-
-  .nav-link span {
-    display: none;
-  }
-
-  .ui-navbar ul {
-    justify-content: space-around;
-  }
-
-  .nav-pills .nav-link {
-    margin: 0 0.675rem 0 0.675rem;
-    border-radius: 50%;
-  }
-
-  .home-page img {
-    max-width: 100%;
-  }
-
-  .software-tools-icons,
-  .web-languages-icons {
-    margin-right: auto !important;
-    margin-left: auto !important;
-    display: block !important;
-  }
-
-  .portfolio-page .card {
-    max-width: 100%;
-    margin: 0 auto;
-  }
-
-  .portfolio-page iframe {
-    width: 100%;
-    min-height: 55vh;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991.98px) {
-  .portfolio-page .card {
-    max-width: 720px;
-    margin: 0 auto;
-  }
-
-  .portfolio-page iframe {
-    min-height: 50vh;
-  }
-}
-
-@media (min-width: 1200px) {
-  .home-page img {
-    max-width: 50%;
-  }
-}
-
 .home-page {
     line-height: 1.6;
     max-width: 90%;
@@ -12226,188 +12142,40 @@ textarea.form-control-lg {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-.software-tools-icons {
-  max-width: 100%;
-  background-color: rgba(255, 255, 255, 0.15);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 0.6rem;
+.nav-triggers {
+  background-color: rgba(158, 127, 203, 0.15);
+  margin: 0 auto;
+  border: 1px solid rgba(158, 127, 203, 0.4);
+  border-radius: 2.4rem;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(12px);
-  padding: 1rem 1.5rem;
-  animation: floating 3s ease-in-out infinite;
+  padding: 0.5rem;
+  transition: color 0.3s, text-shadow 0.3s;
 }
 
-.web-languages-icons {
-  max-width: 100%;
-  background-color: rgba(255, 255, 255, 0.15);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 0.6rem;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(12px);
-  padding: 1rem 1.5rem;
-  animation: floating 3s ease-in-out infinite;
+.nav-triggers :hover {
+  color: #9E7FCB;
+  text-shadow: 1px 1px 3px rgb(0, 0, 0);
 }
 
-.progress-circle {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  background: conic-gradient(#457DB6 calc(var(--value) * 1%), #061329 0);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-}
-
-.progress-circle::after {
-  content: "";
-  position: absolute;
-  height: 60px;
-  width: 60px;
-  background-color: #061329;
-  border-radius: 50%;
-}
-
-.progress-circle .progess-inner {
-  position: relative;
-  z-index: 1;
+.nav-triggers .bi {
   font-size: 1.5rem;
 }
 
-.icons-circular {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  background: #061329;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 2.5rem;
+.nav-triggers .bi:hover {
+  color: #9E7FCB;
+  text-shadow: 1px 1px 3px rgb(0, 0, 0);
 }
 
-.icons-circular img {
-  width: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.designed-modal {
+  background-color: rgba(158, 127, 203, 0.15);
+  border: 2px solid rgba(158, 127, 203, 0.4);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12px);
 }
 
-.percentage-text {
-  font-size: 1.2rem;
-  color: #fff;
-  margin-top: 0.5rem;
-}
-
-.pb-6 {
-  padding-bottom: 3.8rem !important;
-}
-
-.skills-page h2 {
+.designed-modal h5 {
   font-weight: 700;
   text-shadow: 2px 2px 4px rgb(0, 0, 0);
-}
-
-.portfolio-page .card {
-    line-height: 1.6;
-    color: #fff;
-    background-color: rgba(158, 127, 203, 0.15);
-    border: 1px solid rgba(158, 127, 203, 0.4);
-    border-radius: 0.9rem;
-    backdrop-filter: blur(12px);
-    padding: 0.9rem;
-}
-
-.portfolio-page iframe {
-  border: 1.5px solid rgba(255, 255, 255, 0.3);
-  border-radius: 0.6rem;
-}
-
-.portfolio-page .card h5 {
-  font-weight: 700;
-}
-
-.portfolio-page a {
-  background-color: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 0.4rem;
-  padding: 0.5rem 1rem;
   color: #fff;
-  text-decoration: none;
-  transition: background-color 0.3s, color 0.3s;
-}
-
-.portfolio-page a:hover {
-  color: #fff;
-  background-color: rgb(78, 28, 82);
-  border: 1px solid rgb(255, 255, 255);
-}
-
-.portfolio-page .pf-btn {
-  background-color: #4E1C52;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 0.4rem;
-  padding: 0.5rem 1rem;
-  color: #fff;
-  text-decoration: none;
-  transition: background-color 0.3s, color 0.3s;
-}
-
-.portfolio-page .pf-btn:hover {
-  background-color: transparent;
-  color: #fff;
-  border: 1px solid #fff;
-}
-
-.portfolio-page h2 {
-  font-weight: 700;
-  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.4);
-}
-
-.portfolio-page .card-body img {
-  width: 24px;
-}
-
-footer h5 {
-    color: #fff;
-    font-weight: 700;
-    text-shadow: 2px 2px 4px rgb(0, 0, 0);
-}
-
-.jom-info {
-  line-height: 1.6;
-  max-width: 90%;
-}
-
-.footer-link {
-    color: #fff;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.footer-link:hover {
-    color: #457DB6;
-}
-
-.social-icon {
-    width: 35px;
-    height: 35px;
-    line-height: 35px;
-    border-radius: 50%;
-    border: 1px solid rgb(255, 255, 255);
-    text-align: center;
-    background-color: transparent;
-    color: #fff;
-    display: inline-block;
-    margin: 0 8px;
-    transition: all 0.3s ease;
-}
-
-.social-icon:hover {
-    transform: translateY(-3px);
-    color: #061329;
-    background-color: rgba(255, 255, 255, 0.2);
-}
-
-.footer-bg {
-    border-top: 0.25rem solid #9E7FCB;
 }
